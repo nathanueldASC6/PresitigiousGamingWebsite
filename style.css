@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+.bckgrnd{
+  position: absolute;
+  top: 45px;
+  width: 1265px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+}
+.wp p {
+  position: absolute;
+  top: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  z-index: -1;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+color: blue;
+width: 100%;
+}
+
+.ggt {
+  position: absolute;
+  width: 1265px;
+  height: 100%;
+  left: 0px;
+  top: 1000px;
+  z-index: -1;
+}
+.wp {
+  text-align: center;
+  display: inline;
+}
+
+.Call {
+  position: absolute;
+  top: 475px;
+  font-size: 40px;
+  right: 42%;
+  text-decoration: none;
+  color: blue;
+  font-family: 'Dancing Script', cursive;
+} 
+
+#quote {
+  position: absolute;
+  top: 560px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: skyblue;
+}
+
+.quo {
+  font-size: 50px;
+}
+
+#yuh {
+  color: rgb(212,175,55)
+}
+
+#cold {
+  color: rgb(7, 242, 241);
+}
+
+#Hot {
+  color: rgb(236, 0, 2)
+}
+
+.rain {
+  color: rgb(3, 74, 236);
+}
+
+.shine {
+  color: rgb(255, 247, 0);
+}
