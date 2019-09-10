@@ -13,8 +13,8 @@ body {
   height:auto;
 }
 .wp p {
-  position: absolute;
-  top: 300px;
+  position: relative;
+  top: 450px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   z-index: -1;
@@ -48,18 +48,19 @@ width: 100%;
 }
 
 .Call {
-  position: absolute;
-  top: 475px;
+  position: relative;
+  top: 375px;
   font-size: 40px;
-  right: 42%;
+  left: 50%;
+transform: translateX(-50%);
   text-decoration: none;
   color: blue;
   font-family: 'Dancing Script', cursive;
 } 
 
 #quote {
-  position: absolute;
-  top: 560px;
+  position: relative;
+  top: 500px;
   font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 30px;
