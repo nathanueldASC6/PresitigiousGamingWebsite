@@ -1,0 +1,20 @@
+div p {
+        left: 0;
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 47.5%;
+        width: 100%;
+        font-size: 500%;
+    font-family: 'Teko', sans-serif;
+}
+
+.arrow {
+        line-height: 200px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 56.5%;
+    right: 17%;
+}
