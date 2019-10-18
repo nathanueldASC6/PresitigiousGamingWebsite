@@ -85,3 +85,34 @@ width: 100%;
 .shine {
   color: rgb(255, 247, 0);
 }
+
+#locations {
+  position: absolute;
+  top: 115%;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+}
+
+#brooklyn {
+  color: rgb(193, 106, 12);
+}
+
+#queens {
+  color: rgb(128,128,128);
+}
+
+#longisland {
+  color: rgb(1,68,33);
+}
+
+#manhattan {
+  color: #ec983c;
+}
+
+#occasions {
+  position: absolute;
+  top: 125%;
+  text-align: center;
+  width: 100%;
+}
