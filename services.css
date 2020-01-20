@@ -1,8 +1,15 @@
-#coaches {
+.coaches {
     position: absolute;
-    top: 10%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 150%;
     text-align: center;
     width: 100%;
-  }
+    font-size: 225%;
+    top: 20%;
+}
+
+.coaches p {
+    font-family: 'Bangers', cursive;
+}
+
+.coaches a {
+    font-family: 'Lato', sans-serif;
+}

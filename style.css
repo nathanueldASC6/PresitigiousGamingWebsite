@@ -2,7 +2,6 @@ body {
   background-color: white;
 }
 
-
 @media only screen and (max-width: 560px){
 ul {
 position: fixed;
@@ -41,19 +40,22 @@ li a:hover:not(.active) {
 .active {
   background-color: orange;
 }
-.bckgrnd{
-  position: absolute;
-  top: 5%;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0px;
-  height:auto;
 }
 
-.wp p {
+
+img.bckgrnd {
   position: absolute;
-  top: 45%;
+  width: 100%;
+  top: 10%;
+}
+
+.wp {
+  position: absolute;
+  top: 85%;
+  width: 100%; 
+}
+.wp p {
+  font-size: 250%;
   font-family: 'Ubuntu', sans-serif;
   z-index: -1;
     text-shadow: 0 1px 0 #ccc,
@@ -69,26 +71,19 @@ li a:hover:not(.active) {
                  0 10px 10px rgba(0,0,0,.2),
                  0 20px 20px rgba(0,0,0,.15);
 color: blue;
-width: 100%;
 }
 
-.Call {
+.wp a {
   position: absolute;
-  top: 70%;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  font-size: 40px;
-  text-decoration: none;
+  left: 43%;
+  font-size: 250%;
   color: blue;
   font-family: 'Dancing Script', cursive;
-  width: 100%; 
 }
 
 #quote {
   position: absolute;
-  top: 83%;
+  top: 110%;
   font-family: 'Kaushan Script', cursive;
   text-align: center;
   font-size: 40px;
@@ -121,7 +116,7 @@ width: 100%;
 
 #locations {
   position: absolute;
-  top: 115%;
+  top: 150%;
   width: 100%;
   text-align: center;
   font-size: 200%;
@@ -145,7 +140,8 @@ width: 100%;
 
 #occasions {
   position: absolute;
-  top: 125%;
+  font-size: 175%;
+  top: 165%;
   text-align: center;
   width: 100%;
 }
