@@ -2,9 +2,48 @@ body {
   background-color: white;
 }
 
+
+@media only screen and (max-width: 560px){
+ul {
+position: fixed;
+width: 100%;
+top: 0px;
+left: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000CD;
+  z-index: 10;
+  font-family: 'Teko', sans-serif;
+  font-size: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:green;
+}
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: orange;
+}
 .bckgrnd{
   position: absolute;
-  top: 45px;
+  top: 21%;
   width: 100%;
   max-width: 100%;
   margin-left: auto;
@@ -12,11 +51,12 @@ body {
   left: 0px;
   height:auto;
 }
+}
+
 .wp p {
   position: relative;
-  top: 450px;
+  top: 350px;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 60px;
   z-index: -1;
     text-shadow: 0 1px 0 #ccc,
                  0 2px 0 #c9c9c9,
@@ -32,11 +72,6 @@ body {
                  0 20px 20px rgba(0,0,0,.15);
 color: blue;
 width: 100%;
-}
-
-.wp {
-  text-align: center;
-  display: inline;
 }
 
 .Call {
