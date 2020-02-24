@@ -9,31 +9,37 @@ div p {
 .PS4,
 .VR {
     position: absolute;
-    top: 30%;
+    top: 31%;
+    z-index: 1;
 }
 
 .PS4 {
     position: absolute;
     left: 10%;
+    z-index: 1;
 }
 
 .VR {
     position: absolute;
     right: 10%;
+    z-index: 1;
 }
 
 .Switch,
 .Xbox {
     position: absolute;
     top: 70%;
+    z-index: 1;
 }
 
 .Xbox {
     position: absolute;
     right: 10%;
+    z-index: 1;
 }
 
 .Switch {
     position: absolute;
     left: 10%;
+    z-index: 1;
 }

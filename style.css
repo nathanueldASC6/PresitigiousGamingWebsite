@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+.Rectangle {
+  opacity: 0.2;
+  z-index: -1;
+}
 @media only screen and (max-width: 560px){
 ul {
 position: fixed;
@@ -46,12 +50,12 @@ li a:hover:not(.active) {
 img.bckgrnd {
   position: absolute;
   width: 100%;
-  top: 10%;
+  top: 11%;
 }
 
 .wp {
   position: absolute;
-  top: 85%;
+  top: 65%;
   width: 100%; 
 }
 .wp p {
@@ -73,18 +77,32 @@ img.bckgrnd {
 color: blue;
 }
 
-.wp a {
+.wp a1 {
   position: absolute;
-  left: 43%;
+  width: 100%;
+  top: 70%;
+  text-align: center;
   font-size: 250%;
   color: blue;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Yeon Sung';
+  font-weight: bold;
+}
+
+.wp a2 {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  color: blue;
+  font-family: 'Yeon Sung';
+  font-weight: bold;
 }
 
 #quote {
   position: absolute;
-  top: 110%;
-  font-family: 'Kaushan Script', cursive;
+  top: 100%;
+  font-family: 'Yeon Sung';
   text-align: center;
   font-size: 40px;
   color: #0000FF;
@@ -116,7 +134,7 @@ color: blue;
 
 #locations {
   position: absolute;
-  top: 150%;
+  top: 137%;
   width: 100%;
   text-align: center;
   font-size: 200%;
@@ -141,7 +159,24 @@ color: blue;
 #occasions {
   position: absolute;
   font-size: 175%;
-  top: 165%;
+  top: 162%;
   text-align: center;
   width: 100%;
+}
+
+#parties 
+{
+  color: rgb(0,0,205)
+}
+
+#church {
+  color: rgb(139,69,19)
+}
+
+#schools {
+  color: #FDB600
+}
+
+#fundraiser {
+  color: #216C2A
 }
