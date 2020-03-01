@@ -142,7 +142,7 @@ color: blue;
 }
 
 @media only screen
-and (max-width : 375px) {
+and (min-width : 320px) and (max-width : 425px) {
   .wp {
     top: 5%;
   }
@@ -179,12 +179,12 @@ and (max-width : 375px) {
   }
 
   #locations {
-    top: 57%;
+    top: 58%;
     font-size: 125%;
   }
 
   #occasions {
     font-size: 125%;
-    top: 77%;
+    top: 80%;
   }
 }
