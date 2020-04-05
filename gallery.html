@@ -15,16 +15,19 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="packages.css">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"> 
-        <img src="Images/Rectangle.jpg" height="100%" width="100%" class="Rectangle">
+        <link rel="stylesheet" href="gamelist.css">
+        <img src= "Images/4TVS.jpg" width="40%" height="35%" left="10%" class="TVS">
+        <img src= "Images/Seats.jpg" width="40%" height="30%" right= "10%" class="Seats">
+        <img src= "Images/Systems.jpg" width="40%" height="50%" left= "10%" class="Systems">
+        <img src= "Images/Whole.jpg" width="40%" height="40%" right="10%" class="Whole">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <script src="gallery.js"></script>
 </head>
 <style>
-ul.NavBar {
+ul {
 position: fixed;
 width: 100%;
 top: 0px;
@@ -63,60 +66,71 @@ li a:hover:not(.active) {
 }
 
 @media only screen
-and (min-width : 320px) and (max-width : 828px)
+and (min-width : 320px) and (max-width : 425px)
 {
     img {
         width: 100%;
         height: 100%;
     }
 
-    ul.NavBar {
+    ul {
         height: 5%;
-        font-size: 45%;
+        font-size: 59%;
     }
-  .active {
-    font-size: 100%;
-  }
 }
 </style>
 <body>
 
-<ul class="NavBar">
+<ul>
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="services.html">Services</a></li>
   <li><a href="bookonline.html">Book Online</a></li>
-  <li><a href="#contact">Packages</a></li>
+  <li><a href="packages.html">Packages</a></li>
   <li><a href="gamelist.html">Game List</a></li>
-  <li><a href="#about">Gallery</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="about.html">About</a></li>
 </ul>
-<div class="compete">
-    Our 3-hour package is the <span class="price">same price</span> as 2-hour packages from our competitors.
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="Images/4TVS.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="Images/Seats.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="Images/Systems.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="Images/Whole.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-<div class="prices">
-    <ul class="HoursList">
-        <li style="text-decoration: underline;">Starting Packages</li> <br>
-        <li style="font-size: 50%; top: 20%;">*Prices subject to change in the near future*</li> <br>
-        <li>3-Hour Movie Package - $375 (Popcorn and Drinks Included)</li>
-        <li>2 Hour Video Gaming Party - $350</li> <br>
-        <li>3 Hours - $450</li> <br>
-        <li>4 Hours - $550</li> <br>
-        <li>Each Additional Hour - $120</li> <br>
-        <li style="color: orange">*Birthday Child receives a Free Birthday T-Shirt!</li>
-        <li>All Party Attendants receive Prestigious Gaming Wristbands!  </li>
-        <li><span class="PLUS">*PLUS</span> - gives you additional amenities for the duration of the Game Trailer 
-          Party!</li> <br>
-        <li style="color: #F8DE8D">Popcorn Machine! - $75</li>
-        <li style="color: #0ae7ff">Cotton Candy Machine! - $100</li>
-        <li style="color: #FA023C">Bounce House! - Starting at $150</li>
-        <li style="color: #b0cdd2">Snow Cone Machine! - $75</li>
-        <li style="text-decoration: underline;">For a More Fun and Exciting Party, You can also add:</li>
-        <li style="color: #6b0000">Hot Dog Grill! - $75</li>
-        <li style="color: #7CFC00">Yard Games! - $60</li>
-        <li style="font-size: 80%;">Please note: All 4-Hour Packages come with the Cotton Candy Machine after game 
-          time is over!</li>
-    </ul>
-</div>
+
 </body>
 </html>
