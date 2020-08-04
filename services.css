@@ -18,6 +18,6 @@
 and (min-width : 320px) and (max-width : 828px) {
     .coaches {
             font-size: 125%;
-            top: 10%;
+            top: 15%;
     }
 }
