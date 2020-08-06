@@ -192,7 +192,7 @@ and (min-width : 0px) and (max-width : 319px) {
 @media only screen
 and (min-width : 320px) and (max-width : 828px) {
   .wp {
-    top: 16%;
+    top: 21%;
   }
   .wp p, .wp a1, .wp a2 {
     font-size: 125%;
@@ -218,7 +218,7 @@ and (min-width : 320px) and (max-width : 828px) {
   }
   
   #quote {
-    top: 44%;
+    top: 49%;
     font-size: 125%;
   }
 
@@ -227,12 +227,12 @@ and (min-width : 320px) and (max-width : 828px) {
   }
 
   #locations {
-    top: 73%;
+    top: 78%;
     font-size: 125%;
   }
 
   #occasions {
     font-size: 125%;
-    top: 98%;
+    top: 103%;
   }
 }

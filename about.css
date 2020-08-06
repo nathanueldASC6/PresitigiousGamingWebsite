@@ -31,7 +31,7 @@ img {
 
 .aboutsection p3 {
     position: absolute;
-    top: 85%;
+    top: 80%;
     margin-left: 12%;
     margin-right: 12%;
     text-align: center;
@@ -41,7 +41,7 @@ img {
 
 .aboutsection p4 {
     position: absolute;
-    top: 100%;
+    top: 95%;
     width: 100%;
     text-align: center;
     font-size: 150%;
@@ -52,7 +52,7 @@ img {
 and (min-width : 320px) and (max-width : 828px)
 {
     .aboutsection .family-owned{
-        top: 17%;
+        top: 23%;
     }
 
     .aboutsection p1 {
@@ -61,20 +61,20 @@ and (min-width : 320px) and (max-width : 828px)
 
     .aboutsection p2 {
         font-size: 100%;
-        top: 26%;
+        top: 32%;
         margin-left: 6%;
         margin-right: 6%;
     }
 
     .aboutsection p3 {
-        top: 69%;
+        top: 76%;
         margin-left: 6%;
         margin-right: 6%;
         font-size: 100%;
     }
 
     .aboutsection p4 {
-        top: 85%;
+        top: 91%;
         font-size: 100%;
     }
 }
