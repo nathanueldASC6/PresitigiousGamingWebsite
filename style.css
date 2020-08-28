@@ -61,7 +61,7 @@ color: blue;
 
 #quote {
   position: absolute;
-  top: 100%;
+  top: 105%;
   font-family: 'Yeon Sung';
   text-align: center;
   font-size: 40px;
@@ -119,7 +119,7 @@ color: blue;
 #occasions {
   position: absolute;
   font-size: 175%;
-  top: 162%;
+  top: 168%;
   text-align: center;
   width: 100%;
 }
@@ -218,7 +218,7 @@ and (min-width : 320px) and (max-width : 828px) {
   }
   
   #quote {
-    top: 49%;
+    top: 52%;
     font-size: 125%;
   }
 
@@ -233,6 +233,6 @@ and (min-width : 320px) and (max-width : 828px) {
 
   #occasions {
     font-size: 125%;
-    top: 103%;
+    top: 106%;
   }
 }
