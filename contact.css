@@ -1,8 +1,12 @@
 div {
     position: absolute;
-    top: 20%;
+    top: 17%;
     width: 100%;
     text-align: center;
     font-size: 225%;
     font-family: 'Aclonica';
+}
+
+.emailus {
+    font-size: 110%;
 }
