@@ -59,9 +59,14 @@ color: blue;
   font-weight: bold;
 }
 
+iframe {
+  position: absolute;
+  top: 92%;
+}
+
 #quote {
   position: absolute;
-  top: 105%;
+  top: 150%;
   font-family: 'Yeon Sung';
   text-align: center;
   font-size: 40px;
@@ -94,7 +99,7 @@ color: blue;
 
 #locations {
   position: absolute;
-  top: 137%;
+  top: 172%;
   width: 100%;
   text-align: center;
   font-size: 200%;
@@ -119,7 +124,7 @@ color: blue;
 #occasions {
   position: absolute;
   font-size: 175%;
-  top: 168%;
+  top: 195%;
   text-align: center;
   width: 100%;
 }
@@ -169,8 +174,13 @@ and (min-width : 0px) and (max-width : 319px) {
   color: blue;
   }
   
-  #quote {
+  iframe {
+    position: absolute;
     top: 40%;
+  }
+
+  #quote {
+    top: 70%;
     font-size: 115%;
   }
 
@@ -217,8 +227,13 @@ and (min-width : 320px) and (max-width : 828px) {
   color: blue;
   }
   
-  #quote {
+  iframe {
+    position: absolute;
     top: 52%;
+  }
+
+  #quote {
+    top: 112%;
     font-size: 125%;
   }
 
@@ -227,12 +242,13 @@ and (min-width : 320px) and (max-width : 828px) {
   }
 
   #locations {
-    top: 78%;
+    top: 140%;
     font-size: 125%;
   }
 
   #occasions {
     font-size: 125%;
-    top: 106%;
+    top: 172%;
   }
 }
+

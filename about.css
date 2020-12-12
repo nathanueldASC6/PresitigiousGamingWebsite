@@ -48,6 +48,29 @@ img {
     font-family: 'Playfair Display';
 }
 
+.aboutsection p5 {
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Playfair Display';
+}
+
+.Contract {
+    position: relative;
+    padding-top: 200%;
+    top: 110%;
+}
+
+iframe {
+    position: absolute;
+    top: 110%;
+    /* left: 31%; */
+    height: 100%;
+    width: 100%;
+}
+
 @media only screen
 and (min-width : 320px) and (max-width : 828px)
 {
@@ -76,5 +99,13 @@ and (min-width : 320px) and (max-width : 828px)
     .aboutsection p4 {
         top: 95%;
         font-size: 100%;
+    }
+
+    iframe {
+        position: absolute;
+        top: 110%;
+        left: 0%;
+        height: 80%;
+        width: 50%;
     }
 }
